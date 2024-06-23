@@ -1,0 +1,53 @@
+.blog-card{
+    background-color: rgb(255, 245, 245);
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0 , 0, 0, 0.1);
+    border: 1px solid  rgba(0 , 0, 0, 0.1);
+    text-decoration: none;
+    color: black;
+}
+.blog-card:hover{
+    box-shadow: 0 0 10px 10px rgba(0 , 0, 0, 0.3);
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}
+.blog-title{
+  font-size: 24px;
+  padding: 10px;
+}
+.blog-content-preview{
+    font-size: 15px;
+    padding: 5px;
+}
+.author-card{
+    display: flex;
+    align-items: center;
+    margin: 10px 5px;
+}
+.author-avtar{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.author-name{
+    font-size: 14px;
+    font-style: italic;
+    margin-left: 10px;
+}
+.blog-date{
+    font-size: 14px;
+    font-style: italic;
+    margin-left: 20px;
+}
+.category-badge{
+   
+    background-color: rgb(117, 32, 32);
+    color: white;
+    padding: 4px 10px;
+    margin: 7px;
+    font-size: 15px;
+    border-radius: 10px;
+}
