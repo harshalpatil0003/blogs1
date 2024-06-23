@@ -10,6 +10,7 @@ const blogs = [
         date: "June 22, 2024",
         categories: ["AI Musings" , "Tech" , "TOI"],
     },
+    
     {
         id: "Starting SpaceX Musk",
         title: "Starting SpaceX Musk",
